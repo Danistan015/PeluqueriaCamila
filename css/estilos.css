@@ -9,6 +9,36 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+.nav__logo-img {
+    height: 250px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 40px;
+}
+.nav {
+    height: auto;
+    min-height: 250px; /* o un poco más si el logo es muy alto */
+    display: flex;
+    align-items: center;
+}
+.hero__container {
+    padding-top: 150px; /* ajustado al tamaño del logo/nav */
+    padding-bottom: 100px;
+}
+.nav__logo-img {
+    max-height: 200px;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
+
+
+
+
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -35,9 +65,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/computer.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/MC/fondoPrincipal.png');
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    
     z-index: -1;
 }
 
@@ -99,7 +129,7 @@ body {
     grid-auto-rows: max-content;
     align-content: center;
     gap: 1em;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -113,7 +143,7 @@ body {
 
 .cta {
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #E04782;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -128,7 +158,7 @@ body {
 }
 
 .subtitle {
-    color: var(--color-title);
+    color: #D62270;
     font-size: 2rem;
     margin-bottom: 25px;
 }
@@ -262,7 +292,7 @@ body {
     background-color: var(--bg-cta);
     font-weight: 600;
     color: var(--color-cta);
-    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px #D62270;
 }
 
 /* Testimony */
@@ -396,7 +426,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #1D293F;
+    background-color: #D62270;
 }
 
 .footer__title{
