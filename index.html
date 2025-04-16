@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MC Luce Estilos.</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/MC/MC (2).png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
 
@@ -52,7 +52,7 @@
         <section class="hero__container container">
             <h1 class="hero__title">Bienvenidos a MC Luce Estilos.</h1>
             <p class="hero__paragraph">Transformo tu look con técnica, pasión y un toque personalizado que realza tu belleza y confianza. Trabajo con citas para darte la atención exclusiva que mereces..</p>
-            <a href="#" class="cta">Contactanos</a>
+            <a href="#contactenos" class="cta">Contactanos</a>
         </section>
     </header>
 
@@ -281,52 +281,66 @@
             
         </section>
     </main>
-
     <footer class="footer">
         <section class="footer__container container" id="contactenos">
             <nav class="nav nav--footer">
                 <h2 class="footer__title">MC Luce Estilos.</h2>
-
+    
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Home</a>
+                        <a href="#home" class="nav__links">Home</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Habilidades</a>
+                        <a href="#about" class="nav__links">Habilidades</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Portafolio</a>
+                        <a href="#testimony" class="nav__links">Portafolio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contactanos</a>
+                        <a href="#questions" class="nav__links">Preguntas frecuentes fr</a>
                     </li>
                 </ul>
             </nav>
-
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Envianos un correo</h2>
+    
+            <form id="formulario" class="footer__form" action="https://formspree.io/f/xvgkyewq" method="POST">
+                <h2 class="footer__newsletter">Envíanos un mensaje y nos contactaremos</h2>
                 <div class="footer__inputs">
-                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
-                    <input type="description" placeholder="Descripción:" class="footer__input" name="_replyto">
+                    <input type="email" name="email" placeholder="Tu correo electrónico" class="footer__input" required>
+                    <textarea name="message" placeholder="mensaje" class="footer__input footer__textarea" required></textarea>
                     <input type="submit" value="Enviar" class="footer__submit">
                 </div>
             </form>
+            
+            
+            
         </section>
-
-        <section class="footer__copy container contactenos">
+    
+        <section class="footer__copy container contactenos" id="contactenos">
             <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="./images/MC/logotipo-de-instagram.png" class="footer__img"></a>
+                <a href="https://www.instagram.com/camilasoto_211?igsh=M3plOW9rb2hpcTFt" class="footer__icons" target="_blank">
+                    <img src="./images/instagram.png" class="footer__img">
+                </a>
+                <p>Síguenos en Instagram</p>
                 
-                <a href="#" class="footer__icons"><img src="./images/MC/whatsapp.png" class="footer__img"></a>
+                <a href="https://wa.me/qr/IA2DFAB67AFLI1" class="footer__icons" target="_blank">
+                    <img src="./images/whatsapp (2).png" class="footer__img">
+                </a>
+                <p>Contáctanos por WhatsApp</p>
             </div>
-
-            <h3 class="footer__copyright">Derechos reservados &copy;MC Luce Estilos. </h3>
+    
+            <h3 class="footer__copyright">
+                Derechos reservados &copy; MC Luce Estilos.
+            </h3>
         </section>
     </footer>
+    
+
 
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="formulario.js"></script>
+
 </body>
 
 </html>
